@@ -1,0 +1,220 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "language": "Language",
+    "references": "References"
+  },
+  "Hero": {
+    "typewriter": {
+      "prefix": "Intexio",
+      "suffixes": [
+        "Web Development",
+        "Digital Marketing", 
+        "Automation",
+        "UI/UX Design",
+        "SEO Optimization",
+        "Social Media"
+      ]
+    },
+    "subtitle": "Transform your business with cutting-edge digital solutions and intelligent automation",
+    "cta": {
+      "references": "View References",
+      "contact": "Contact Us"
+    }
+  },
+  "Services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive digital solutions to grow your business",
+    "items": [
+      {
+        "title": "Web Development",
+        "description": "Custom websites and web applications built with modern technologies.",
+        "features": [
+          "React, Next.js & Node.js",
+          "Responsive & Mobile-First",
+          "Performance Optimized",
+          "SEO-Friendly Structure"
+        ],
+        "icon": "Code"
+      },
+      {
+        "title": "Digital Marketing",
+        "description": "Strategic marketing campaigns across all digital channels.",
+        "features": [
+          "PPC & Social Advertising",
+          "Content Marketing",
+          "Email Campaigns",
+          "ROI Tracking & Analytics"
+        ],
+        "icon": "TrendingUp"
+      },
+      {
+        "title": "Automation",
+        "description": "Streamline your business processes with intelligent automation.",
+        "features": [
+          "Workflow Automation",
+          "Process Optimization",
+          "Error Reduction",
+          "Productivity Boost"
+        ],
+        "icon": "Zap"
+      },
+      {
+        "title": "UI/UX Design",
+        "description": "User-centered design that enhances user experience.",
+        "features": [
+          "User Research & Testing",
+          "Intuitive Interfaces",
+          "Conversion Optimization",
+          "Brand Consistency"
+        ],
+        "icon": "Palette"
+      },
+      {
+        "title": "SEO Optimization",
+        "description": "Improve your search engine rankings and visibility.",
+        "features": [
+          "Technical SEO",
+          "Content Optimization",
+          "Local SEO",
+          "Performance Monitoring"
+        ],
+        "icon": "Search"
+      },
+      {
+        "title": "Social Media",
+        "description": "Engage with your audience across all social platforms.",
+        "features": [
+          "Content Strategy",
+          "Community Management",
+          "Paid Advertising",
+          "Analytics & Reporting"
+        ],
+        "icon": "Share2"
+      }
+    ]
+  },
+  "Metadata": {
+    "title": "Intexio - Digital Marketing & Automation Agency",
+    "description": "Transform your business with cutting-edge digital solutions and intelligent automation. Expert digital marketing and automation services."
+  },
+  "Projects": {
+    "title": "Our Work",
+    "subtitle": "Discover how we've helped businesses transform their digital presence with innovative solutions and cutting-edge technologies",
+    "learnMore": "Case Study",
+    "viewProject": "View Live",
+    "sourceCode": "Source Code",
+    "projects": [
+      {
+        "title": "Aksioma Tver Clinic",
+        "description": "A modern and responsive website with complex content management system for a large clinic in Tver, Russia.",
+        "date": "July 2025"
+      },
+      {
+        "title": "Car Wash City Group",
+        "description": "A modern and responsive website for a largest hand car wash network in Slovakia. With a complex reservation system and admin panel with business automatization functionalities",
+        "date": "April 2025"
+      },
+      {
+        "title": "Artroom Design Studio",
+        "description": "A modern and responsive website with content management system for a design studio in Slovakia.",
+        "date": "September 2023"
+      }
+    ]
+  },
+  "CaseStudy": {
+    "backToProjects": "Back to Projects",
+    "duration": "Duration",
+    "status": "Status",
+    "technologies": "Technologies",
+    "features": "Services & Features",
+    "challenges": "Challenges",
+    "gallery": "Project Gallery",
+    "viewLive": "View Live",
+    "sourceCode": "Source Code",
+    "notAvailable": "Not Available"
+  },
+  "About": {
+    "title": "About Us",
+    "subtitle": "We are a dynamic team of digital professionals passionate about transforming businesses through innovative technology solutions",
+    "since": "Since 2022",
+    "description": "We specialize in creating cutting-edge websites, implementing strategic digital marketing campaigns, and developing intelligent automation solutions that drive business growth and efficiency. Our mission is to help businesses thrive in the digital landscape with innovative, scalable, and results-driven solutions.",
+    "team": {
+      "title": "Our Team"
+    },
+    "sergey": {
+      "role": "Co-founder & Lead Developer",
+      "description": "Expert in modern web technologies and full-stack development. Creating scalable, high-performance applications that deliver exceptional user experiences."
+    },
+    "konstantin": {
+      "role": "Co-founder & Marketing Specialist",
+      "description": "Specialized in digital marketing strategies and development. Focused on driving business growth through data-driven marketing approaches and technical solutions."
+    }
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us to discuss your project and discover how we can help transform your business",
+    "getInTouch": "Get in Touch",
+    "email": {
+      "title": "Email"
+    },
+    "phone": {
+      "title": "Phone"
+    },
+    "location": {
+      "title": "Location",
+      "value": "Slovakia"
+    },
+    "form": {
+      "title": "Ready to Start Your Project?",
+      "description": "Send us an email and we'll get back to you within 24 hours to discuss your project requirements.",
+      "cta": "Send Email",
+      "alternative": "Or call us directly:",
+      "emailDirect": "Email us directly",
+      "responseTime": "We'll respond within 24 hours"
+    }
+  },
+  "Footer": {
+    "description": "Transform your business with cutting-edge digital solutions and intelligent automation. Expert digital marketing and automation services.",
+    "services": {
+      "title": "Services",
+      "list": [
+        "Web Development",
+        "Digital Marketing",
+        "Automation",
+        "UI/UX Design",
+        "SEO Optimization",
+        "Social Media"
+      ]
+    },
+    "links": {
+      "title": "Quick Links",
+      "list": [
+        {
+          "href": "#home",
+          "label": "Home"
+        },
+        {
+          "href": "#services",
+          "label": "Services"
+        },
+        {
+          "href": "#projects",
+          "label": "Projects"
+        },
+        {
+          "href": "#about",
+          "label": "About"
+        },
+        {
+          "href": "#contact",
+          "label": "Contact"
+        }
+      ]
+    },
+    "copyright": "All rights reserved."
+  }
+}

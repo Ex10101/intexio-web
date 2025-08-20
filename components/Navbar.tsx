@@ -13,6 +13,19 @@ export default function Navbar() {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleNavigation = (href: string) => {
+    setIsOpen(false);
+    // Add a small delay to ensure menu closes before scrolling
+    setTimeout(() => {
+      const element = document.querySelector(href);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        console.warn(`Element with id ${href} not found`);
+      }
+    }, 150);
+  };
+
   const handleLanguageChange = (locale: string) => {
     router.replace(pathname, {locale});
     setIsOpen(false);
@@ -53,10 +66,7 @@ export default function Navbar() {
                 className="text-gray-300 hover:text-white transition-colors duration-200 relative group cursor-pointer"
                 onClick={(e) => {
                   e.preventDefault();
-                  const element = document.querySelector(item.href);
-                  if (element) {
-                    element.scrollIntoView({ behavior: 'smooth' });
-                  }
+                  handleNavigation(item.href);
                 }}
               >
                 {item.label}
@@ -118,13 +128,9 @@ export default function Navbar() {
                   href={item.href}
                   onClick={(e) => {
                     e.preventDefault();
-                    setIsOpen(false);
-                    const element = document.querySelector(item.href);
-                    if (element) {
-                      element.scrollIntoView({ behavior: 'smooth' });
-                    }
+                    handleNavigation(item.href);
                   }}
-                  className="block text-gray-300 hover:text-white transition-colors duration-200 py-2 cursor-pointer"
+                  className="block text-gray-300 hover:text-white transition-colors duration-200 py-3 px-2 cursor-pointer touch-manipulation"
                 >
                   {item.label}
                 </a>

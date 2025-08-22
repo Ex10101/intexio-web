@@ -196,17 +196,17 @@ export default function ProjectCaseStudy({ project, locale }: ProjectCaseStudyPr
 
          {/* Project Navigation */}
          <div className="mt-16 pt-8 border-t border-gray-700">
-           <div className="flex justify-between items-center">
+           <div className="flex flex-col sm:flex-row justify-between items-stretch sm:items-center gap-4 sm:gap-0">
              <Link
                href={`/${locale}/projects/${prevSlug}`}
-               className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group"
+               className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group bg-slate-800/30 hover:bg-slate-800/50 rounded-lg p-4 sm:p-0 sm:bg-transparent sm:hover:bg-transparent"
              >
-               <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-               <div className="text-right">
-                 <div className="text-sm text-gray-400">
+               <ArrowLeft className="w-5 h-5 sm:w-4 sm:h-4 group-hover:-translate-x-1 transition-transform flex-shrink-0" />
+               <div className="text-right sm:text-right min-w-0 flex-1">
+                 <div className="text-xs sm:text-sm text-gray-400">
                    {isRussian ? 'Предыдущий проект' : 'Previous Project'}
                  </div>
-                 <div className="font-medium">
+                 <div className="font-medium text-sm sm:text-base truncate">
                    {isRussian ? projectsData[prevSlug].titleRu : projectsData[prevSlug].title}
                  </div>
                </div>
@@ -214,17 +214,17 @@ export default function ProjectCaseStudy({ project, locale }: ProjectCaseStudyPr
 
              <Link
                href={`/${locale}/projects/${nextSlug}`}
-               className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group"
+               className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group bg-slate-800/30 hover:bg-slate-800/50 rounded-lg p-4 sm:p-0 sm:bg-transparent sm:hover:bg-transparent"
              >
-               <div className="text-left">
-                 <div className="text-sm text-gray-400">
+               <div className="text-left sm:text-left min-w-0 flex-1">
+                 <div className="text-xs sm:text-sm text-gray-400">
                    {isRussian ? 'Следующий проект' : 'Next Project'}
                  </div>
-                 <div className="font-medium">
+                 <div className="font-medium text-sm sm:text-base truncate">
                    {isRussian ? projectsData[nextSlug].titleRu : projectsData[nextSlug].title}
                  </div>
                </div>
-               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+               <ArrowRight className="w-5 h-5 sm:w-4 sm:h-4 group-hover:translate-x-1 transition-transform flex-shrink-0" />
              </Link>
            </div>
          </div>

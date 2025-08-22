@@ -164,9 +164,12 @@
     "phone": {
       "title": "Phone"
     },
+    "whatsapp": {
+      "title": "WhatsApp"
+    },
     "location": {
       "title": "Location",
-      "value": "Slovakia"
+      "value": "Slovakia, Russia"
     },
     "form": {
       "title": "Ready to Start Your Project?",

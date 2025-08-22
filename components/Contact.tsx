@@ -2,7 +2,7 @@
 
 import {useTranslations} from 'next-intl';
 import {motion} from 'framer-motion';
-import {Mail, Phone, MapPin} from 'lucide-react';
+import {Mail, Phone, MapPin, MessageCircle} from 'lucide-react';
 
 export default function Contact() {
   const t = useTranslations('Contact');
@@ -38,8 +38,14 @@ export default function Contact() {
     {
       icon: Phone,
       title: t('phone.title'),
-      value: '+421 951 877 027',
-      link: 'tel:+421951877027',
+      value: '+421 951 490 709',
+      link: 'tel:+421951490709',
+    },
+    {
+      icon: MessageCircle,
+      title: t('whatsapp.title'),
+      value: '+421 951 490 709',
+      link: 'https://wa.me/421951490709',
     },
     {
       icon: MapPin,
@@ -156,10 +162,10 @@ export default function Contact() {
                   {t('form.alternative')}
                 </p>
                 <a
-                  href="tel:+421951877027"
+                  href="tel:+421951490709"
                   className="text-blue-400 hover:text-blue-300 transition-colors duration-200 text-sm font-medium"
                 >
-                  +421 951 877 027
+                  +421 951 490 709
                 </a>
               </div>
             </div>

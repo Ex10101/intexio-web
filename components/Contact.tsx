@@ -32,8 +32,8 @@ export default function Contact() {
     {
       icon: Mail,
       title: t('email.title'),
-      value: 'intexio-dev@gmail.com',
-      link: 'mailto:intexio-dev@gmail.com',
+      value: 'intexio.dev@gmail.com',
+      link: 'mailto:intexio.dev@gmail.com',
     },
     {
       icon: Phone,

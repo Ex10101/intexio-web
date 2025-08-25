@@ -34,8 +34,8 @@ export default function Footer() {
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-gray-400 text-sm">
                 <Mail className="w-4 h-4" />
-                <a href="mailto:info@intexio.sk" className="hover:text-blue-400 transition-colors duration-200">
-                  info@intexio.sk
+                <a href="mailto:intexio.dev@gmail.com" className="hover:text-blue-400 transition-colors duration-200">
+                  intexio.dev@gmail.com
                 </a>
               </div>
               <div className="flex items-center space-x-2 text-gray-400 text-sm">
